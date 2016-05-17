@@ -1,5 +1,5 @@
 var child = document.createElement('iframe');
-child.src = 'http://localhost/learn/frame.html';                
+child.src = './frame.html';                
 child.width = child.height = '300px';
 child.frameBorder = '0';
 child.style['position'] = 'absolute';
